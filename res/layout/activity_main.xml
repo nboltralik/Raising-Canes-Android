@@ -1,1 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/touch"
+    android:orientation="vertical">
 
+    <TextView
+        android:text="@string/textText"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="36sp"
+        android:gravity="center_horizontal"
+        android:textColor="#a5241c"
+        android:id="@+id/text" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:contentDescription="@string/imageText"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/image" />
+    <!--
+    <TextView
+        android:text="Current Time"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="#a5241c"
+        android:id="@+id/day"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent" />
+        -->
+
+    <TextView
+        android:text="@string/hoursText"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="#a5241c"
+        android:id="@+id/hours"
+        android:layout_width="match_parent" />
+
+</LinearLayout>

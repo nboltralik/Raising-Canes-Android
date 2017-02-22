@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Raising Cane\'s UA</string>
+    <string name="action_settings">Roll Tide!</string>
+
+    <string name="textText">Is Raising Cane\'s Open?</string>
+    <string name="hoursText">Today\'s Hours:</string>
+    <string name="imageText">Image Here</string>
+</resources>
